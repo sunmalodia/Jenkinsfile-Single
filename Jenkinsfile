@@ -22,9 +22,8 @@ node {
 */
 
     // Testing
-    //git url: 'https://github.com/loverde/jenkinsfile-test'
 }
-
+/*
 stage name: 'build'
 node {
     if (isUnix()) {
@@ -33,7 +32,7 @@ node {
         bat './gradlew.bat clean build'
     }
 }
-
+*/
 stage name: 'postbuild'
 node {
     if (isUnix()) {
