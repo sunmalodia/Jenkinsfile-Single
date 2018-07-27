@@ -1,10 +1,4 @@
 
-#!groovy
-
-// Orig Ref From :: https://github.com/loverde/jenkinsfile-test/blob/master/Jenkinsfile
-
-
-
 stage name: 'setup'
 node {
     if (isUnix()) {
