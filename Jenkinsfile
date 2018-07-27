@@ -7,7 +7,7 @@ node {
         sh "ls -la"
     } else {
         echo "windows mode"
-        bat "pwd"
+        bat "cd"
         bat "dir"
     }
 /*
