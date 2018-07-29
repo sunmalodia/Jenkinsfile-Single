@@ -5,6 +5,7 @@ node {
         echo "unix mode"
 	    sh 'pwd'
         sh "ls -la"
+	    sh "ls"
     } else {
         echo "windows mode"
         bat "cd"
